@@ -32,9 +32,16 @@ dir
 #networking status
 
 echo "networking status"
+
 # test
+
 netsat -n 
 
+#Fifth Feature
+
+#information about network latency
+
+pathping /h 30
 
 
 
