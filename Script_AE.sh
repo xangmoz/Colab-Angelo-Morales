@@ -21,7 +21,11 @@ echo " Display help for windows"
 
 help 
 
+#Third feature
 
+echo "display current directory"
+
+dir
 
 
 
