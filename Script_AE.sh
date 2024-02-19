@@ -32,7 +32,7 @@ dir
 #networking status
 
 echo "networking status"
-
+# test
 netsat -n 
 
 
