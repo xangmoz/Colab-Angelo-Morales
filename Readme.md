@@ -28,8 +28,7 @@
 - [contributing](#contributing)
 - [Support](#support)
 - [Acknowledgements](#acknowledgements)
-- [FAQ](#faq)
-- [License](license)
+
 
 
 
@@ -37,15 +36,15 @@
 
 **[Netowrk Script ]** This is a test on shell to start to work with GIT and git hub and this is the documentation
 
-# Build With <a name="built-with"></a>
+# Build With: <a name="built-with"></a>
 
 <p>
 
-this project was built using:
+This project was made using:
 
 HTML - Markdown And Shell Scripting
 
-<p
+<p>
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -57,20 +56,11 @@ HTML - Markdown And Shell Scripting
 <li> GITHUB </li>
 
 <details>
-<summary>Client</summary>
-
+<summary>Official websites:</summary>
 
 <ul>
-<li><a href="https://developer.mozilla.org/es/docs/Web/HTML">HTML</a><li>
-<ul>
-
-
-</details>
-
-<details>
-<summary>Backend</summary>
-<ul></ul>
-<li><a href= "https://markdown.es/sintaxis-markdown/">Markdown</a></li>
+<li><a href="https://developer.mozilla.org/es/docs/Web/HTML">HTML</a></li>
+<li><a href="https://markdown.es/sintaxis-markdown/">Markdown</a></li>
 </ul>
 </details>
 
@@ -86,19 +76,22 @@ HTML - Markdown And Shell Scripting
 (<a name="readme-top">Back To top</a>)
 </p>
 
-### [DOCUMENTATION]<a name="documetation"></a>
+### [DOCUMENTATION]<a name="documentation"></a>
     Tutorial / Step By Step
 - First step
 Create a directory with the name of the Repo
+
 <img src= "directorio.png">
 
-open a git bash here
+Rigth click and open a git bash here:
+
+<img src= git_bash.png>
 
 and initiate VC code
- ```git 
+ ```sh
  code .
  ```
- Then make a shell script, this is an exaxmple:
+ Then make a shell script, this is an example:
  ```sh
  #!/bin/bash
 
@@ -120,13 +113,13 @@ ping -t 4 www.google.com
 echo "----------"
  ```
 
-next starts the local repository
+Next starts the local repository
 
 ```sh
 git init
 ```
 
-now configure the Git terminal:
+Now configure the Git terminal:
 ```sh
 git config --global user.name "your name here"
 git config --global user.mail "your mail here"
@@ -135,18 +128,18 @@ After the initial configuration we add the script to the stage area
 ```sh
 Git add "<filename>"
 ```
-then add to the local repo
+Then add to the local repo
 ```sh
 git commit -m "message here"
 ```
 
-now need to add a remote repository Github in this case
+Now need to add a remote repository Github in this case
 ```sh
 git remote add origin "ssh or https"
 ```
-whit this we can upload the changes to github
+Whit this we can upload the changes to github
 ```
-git push -u origin master
+Git push -u origin master
 ```
 ## Getting Started <a name="getting-started"></a>
 
@@ -177,40 +170,35 @@ git clone https://github.com/xangmoz/Network-Script-Bash
 Install this project with
 
 ```sh
-./networkscript.sh
+./Script_AE.sh
 ```
 
 ### Usage <a name= "usage">
 
-To run the projeect, execute the following command:
+To run the project, execute the following command:
 
 ```sh
-./networkScript.sh
+./Script_AE.sh
 
 ```
-### Run test
 
-To run test, run the following command or endpoint:
-
-```sh
-python -m unittest test_module.TestClass
-```
-### Deployment
-
-Deploy using your local enviroment
-
-
-<a href="readme-top" Back to Top > </a>
 
 ## Authors <a name="authors"></a>
 
 
 Angelo Morales
 
-**Author 1**
+**Author**
 
     Github:[xangmoz](https://github.com/xangmoz)
-    #otras redes sociales aqui
+
+David Iglesias
+
+**Collaborator**
+
+    Github:[Diglesias-droid](https://github.com/DIglesias-droid)
+
+
 
 
 ## Future Features <a name="future-features"></a>
@@ -223,7 +211,7 @@ Angelo Morales
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/xangmoz/Network-Script-Bash/issues)
+Feel free to check the [issues page](https://github.com/xangmoz/Network-Script-Bash/issues) to help me to improve.
 
 
 # Show your Support
@@ -233,12 +221,20 @@ Write a message to encourage readers to support your project
 If you like this project please give one star
 
 ## Acknowlegements <a name="acknowledgements"></a>
+<div align="center">
 
-I would like to thank my learning classmates and my instructors
+I would like to thank my classmates and my instructor:
+
+Github:[alyconr](https://github.com/DIglesias-droid)
 
 
-## license <a name ="license"></a>
 
-This project is licensed
 
-<a href="readme-top"></a> Back to top
+<img src=lovepeace.jpg width="500" height="auto">
+
+
+image taken form: @chaoseclips in devianart:
+
+ https://www.deviantart.com/chaoseclips/art/Love-and-Peace-960622387
+
+
