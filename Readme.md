@@ -17,6 +17,7 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
 - [Documentation](#documentation)
+    - [Adittional Comands](#aditional-comands)
 - [Getting Started](#getting-started)
     - [Setup](#setup)
     - [Install](#install)
@@ -27,6 +28,7 @@
 - [Future Features](future-features)
 - [contributing](#contributing)
 - [Support](#support)
+- [License](#license)
 - [Acknowledgements](#acknowledgements)
 
 
@@ -34,7 +36,7 @@
 
 # [BASH SCRIPT AND GIT PROJECT ]<a name="about-project"></a>
 
-**[Netowrk Script ]** This is a test on shell to start to work with GIT and git hub and this is the documentation
+This is a test on shell to start to work with GIT and Github and this is the documentation
 
 # Build With: <a name="built-with"></a>
 
@@ -77,6 +79,7 @@ HTML - Markdown And Shell Scripting
 </p>
 
 ### [DOCUMENTATION]<a name="documentation"></a>
+
     Tutorial / Step By Step
 - First step
 Create a directory with the name of the Repo
@@ -135,13 +138,27 @@ git commit -m "message here"
 
 Now need to add a remote repository Github in this case
 ```sh
-git remote add origin "ssh or https"
+git remote add origin "ssh or https link"
 ```
 Whit this we can upload the changes to github
 ```
 Git push -u origin master
 ```
-## Getting Started <a name="getting-started"></a>
+## Adittional Comands <a name ="adittional-comands"></a>
+- create a branch:
+```sh
+git checkoute -b "name-of-the-branch-here"
+```
+- Merge a branch:
+```sh
+git merge "name-branch"
+ ```
+  -Display logs
+  ```sh
+  git log
+  ```
+  
+# Getting Started <a name="getting-started"></a>
 
 
 To get a local copy up and running, follow these steps:
@@ -219,6 +236,10 @@ Feel free to check the [issues page](https://github.com/xangmoz/Network-Script-B
 Write a message to encourage readers to support your project
 
 If you like this project please give one star
+
+# License <a name = "license"></a>
+
+This project is [MIT](./LICENSE.md) licensed
 
 ## Acknowlegements <a name="acknowledgements"></a>
 <div align="center">
